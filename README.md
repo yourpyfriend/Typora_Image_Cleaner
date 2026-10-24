@@ -13,7 +13,7 @@ from pathlib import Path
 
 # 获取工作路径
 print("请输入你放置图片文件夹的名称: ")
-print("注意，路径采用反斜杠「/」，特殊符号需要用「\」转义")
+print("注意，路径采用反斜杠「/」，特殊符号需要用「\」转义") # 这句话其实不用
 LocalPath_input = Path(input(r"请输入路径：").strip().strip('"'))
 
 # 检查并创建 [_trash_bin]文件夹
