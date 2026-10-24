@@ -1,3 +1,4 @@
+~~~
 # Typora本身已经使用如下两种图片结构
 # Markdown 格式 ![alt](path)
 # HTML 格式  <img src="./assets/xxxx.png" alt="..." style="...">
@@ -59,3 +60,5 @@ for img in imgfile_list:
         target = LocalPath_input / "_trash_bin" / img.name
         shutil.move(str(img), str(target))
         print(f"移动: {img} -> {target}")
+
+~~~
